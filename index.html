@@ -1,0 +1,368 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>عرض تقديمي | نظام إدارة الفعاليات</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="deck-shell">
+    <aside class="side-panel d-none d-lg-flex flex-column justify-content-between">
+      <div>
+        <div class="brand-mark">EMS</div>
+        <div class="small-label mt-3">System Analysis</div>
+        <h2>نظام إدارة الفعاليات</h2>
+      </div>
+      <div>
+        <div class="progress mb-3" role="progressbar" aria-label="Progress">
+          <div id="progressBar" class="progress-bar"></div>
+        </div>
+        <div class="slide-counter"><span id="currentSlide">01</span> / <span id="totalSlides">15</span></div>
+      </div>
+    </aside>
+
+    <main class="presentation-area">
+      <div class="top-actions">
+        <button class="btn btn-sm btn-glass" id="prevBtn">‹ السابق</button>
+        <button class="btn btn-sm btn-primary-soft" id="nextBtn">التالي ›</button>
+        <button class="btn btn-sm btn-outline-light" onclick="window.print()">تصدير PDF</button>
+      </div>
+
+      <section class="slide active title-slide" data-title="الغلاف">
+        <div class="container-fluid h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-lg-7">
+              <div class="eyebrow">مشروع تحليل وتصميم نظم</div>
+              <h1>نظام إدارة الفعاليات</h1>
+              <p class="lead">منصة ويب احترافية لتنظيم الدورات، الورش، المسابقات، وإدارة التسجيل والحضور والتقارير.</p>
+              <div class="meta-strip">
+                <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Bootstrap</span>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="hero-visual">
+                <img src="assets/images/hero-event.svg" alt="صورة توضيحية لنظام إدارة الفعاليات">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="المشكلة">
+        <div class="container-fluid">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <div class="section-tag">01 / المشكلة</div>
+              <h2>لماذا نحتاج النظام؟</h2>
+              <p class="slide-text">إدارة الفعاليات يدويًا عبر Excel وWhatsApp تؤدي إلى ضياع البيانات، تكرار التسجيل، صعوبة متابعة الحضور، وتأخر التقارير.</p>
+              <div class="impact-grid">
+                <div><b>أخطاء تسجيل</b><span>بيانات غير دقيقة أو مكررة</span></div>
+                <div><b>وقت ضائع</b><span>فرز يدوي وتواصل متكرر</span></div>
+                <div><b>تقارير ضعيفة</b><span>لا توجد إحصاءات لحظية</span></div>
+              </div>
+            </div>
+            <div class="col-lg-6">
+              <img class="visual-card" src="assets/images/problem-workflow.svg" alt="صورة توضيحية للمشكلة">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="الحل">
+        <div class="container-fluid">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 order-lg-2">
+              <div class="section-tag">02 / الحل المقترح</div>
+              <h2>منصة مركزية لإدارة كل دورة حياة الحدث</h2>
+              <p class="slide-text">يوفر النظام واجهة واحدة لإنشاء الفعاليات، نشرها، استقبال التسجيلات، إدارة المشاركين، تسجيل الحضور، وإظهار تقارير إدارية واضحة.</p>
+              <ul class="premium-list">
+                <li>تسجيل إلكتروني منظم للمستخدمين.</li>
+                <li>لوحة تحكم للإدارة والمنظمين.</li>
+                <li>إحصاءات مباشرة عن التسجيل والحضور.</li>
+              </ul>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <img class="visual-card" src="assets/images/solution-platform.svg" alt="صورة توضيحية للحل">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="الأهداف">
+        <div class="container-fluid">
+          <div class="section-tag">03 / أهداف المشروع</div>
+          <h2>أهداف واضحة وقابلة للقياس</h2>
+          <div class="row g-4 mt-3">
+            <div class="col-md-4"><div class="goal-card"><span class="card-icon"><i class="bi bi-diagram-2"></i></span><span>01</span><h3>تحليل وتصميم</h3><p>بناء نموذج متكامل للنظام قبل التنفيذ.</p></div></div>
+            <div class="col-md-4"><div class="goal-card"><span class="card-icon"><i class="bi bi-mouse2"></i></span><span>02</span><h3>سهولة الاستخدام</h3><p>تجربة بسيطة للمستخدم والإدارة.</p></div></div>
+            <div class="col-md-4"><div class="goal-card"><span class="card-icon"><i class="bi bi-check2-circle"></i></span><span>03</span><h3>تقليل الأخطاء</h3><p>استبدال الإجراءات اليدوية بنظام منظم.</p></div></div>
+            <div class="col-md-4"><div class="goal-card"><span class="card-icon"><i class="bi bi-people"></i></span><span>04</span><h3>إدارة المشاركين</h3><p>تتبع التسجيلات والحضور بوضوح.</p></div></div>
+            <div class="col-md-4"><div class="goal-card"><span class="card-icon"><i class="bi bi-bar-chart-line"></i></span><span>05</span><h3>تقارير لحظية</h3><p>إحصاءات تساعد الإدارة على القرار.</p></div></div>
+            <div class="col-md-4"><div class="goal-card"><span class="card-icon"><i class="bi bi-arrows-angle-expand"></i></span><span>06</span><h3>قابلية التوسع</h3><p>إضافة أنواع فعاليات ووظائف مستقبلًا.</p></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="المستخدمون">
+        <div class="container-fluid">
+          <div class="section-tag">04 / أصحاب العلاقة</div>
+          <h2>المستخدمون الرئيسيون في النظام</h2>
+          <div class="role-showcase mt-4">
+            <div class="illustration-panel role-illustration">
+              <img src="assets/images/stakeholders-illustration.svg" alt="رسم توضيحي يوضح ارتباط المستخدمين بنظام إدارة الفعاليات">
+              <div class="visual-caption">
+                <b>منصة واحدة</b>
+                <span>تربط الإدارة، المنظم، المستخدم والزائر ضمن دورة عمل واضحة.</span>
+              </div>
+            </div>
+            <div class="role-line">
+              <div class="role-node admin">
+                <div class="role-card-head"><span class="card-icon"><i class="bi bi-person-gear"></i></span><span>مدير النظام</span></div>
+                <small>صلاحيات كاملة لإدارة المستخدمين، الفعاليات، التقارير، وقاعدة البيانات.</small>
+              </div>
+              <div class="role-node organizer">
+                <div class="role-card-head"><span class="card-icon"><i class="bi bi-calendar2-plus"></i></span><span>منظم الفعالية</span></div>
+                <small>إنشاء الفعاليات، تحديث التفاصيل، ومتابعة المشاركين والحضور.</small>
+              </div>
+              <div class="role-node user">
+                <div class="role-card-head"><span class="card-icon"><i class="bi bi-person-check"></i></span><span>مستخدم مسجل</span></div>
+                <small>تصفح الأنشطة، التسجيل، إلغاء التسجيل، ومتابعة الفعاليات الخاصة به.</small>
+              </div>
+              <div class="role-node visitor">
+                <div class="role-card-head"><span class="card-icon"><i class="bi bi-globe2"></i></span><span>زائر</span></div>
+                <small>استعراض الفعاليات العامة، البحث، مشاهدة التفاصيل، وإنشاء حساب جديد.</small>
+              </div>
+            </div>
+          </div>
+          <div class="hint-box mt-4"><i class="bi bi-stars ms-2"></i>يمكن تعديل هذه الشريحة لاحقًا بإضافة أدوار مثل: مشرف حضور، مدرب، أو مسؤول تقارير.</div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="المتطلبات">
+        <div class="container-fluid">
+          <div class="row g-4 align-items-stretch">
+            <div class="col-lg-5">
+              <div class="section-tag">05 / المتطلبات الوظيفية</div>
+              <h2>ماذا يجب أن يفعل النظام؟</h2>
+              <p class="slide-text">تم تقسيم الوظائف حسب نوع المستخدم لضمان وضوح الصلاحيات وسهولة الاختبار.</p>
+            </div>
+            <div class="col-lg-7">
+              <div class="requirements-board">
+                <div><span class="card-icon"><i class="bi bi-person-fill-gear"></i></span><h3>Admin</h3><p>تسجيل الدخول، إدارة الفعاليات، إدارة المستخدمين، قبول/رفض التسجيلات، متابعة الحضور، عرض التقارير.</p></div>
+                <div><span class="card-icon"><i class="bi bi-person-badge"></i></span><h3>User</h3><p>إنشاء حساب، تسجيل الدخول، تصفح الفعاليات، التسجيل، إلغاء التسجيل، تحديث الملف الشخصي.</p></div>
+                <div><span class="card-icon"><i class="bi bi-compass"></i></span><h3>Visitor</h3><p>تصفح الفعاليات العامة، البحث، عرض التفاصيل، إنشاء حساب، التواصل مع الإدارة.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="حالات الاستخدام">
+        <div class="container-fluid">
+          <div class="section-tag">06 / Use Cases</div>
+          <h2>أهم حالات الاستخدام</h2>
+          <div class="usecase-grid mt-4">
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-box-arrow-in-right"></i></span><span class="usecase-title">تسجيل دخول المدير</span><small>UC-01</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-calendar2-plus"></i></span><span class="usecase-title">إنشاء فعالية</span><small>UC-02</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-pencil-square"></i></span><span class="usecase-title">تعديل فعالية</span><small>UC-03</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-trash3"></i></span><span class="usecase-title">حذف فعالية</span><small>UC-04</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-person-plus"></i></span><span class="usecase-title">تسجيل مستخدم</span><small>UC-05</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-calendar-week"></i></span><span class="usecase-title">تصفح الفعاليات</span><small>UC-06</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-clipboard2-check"></i></span><span class="usecase-title">التسجيل في فعالية</span><small>UC-07</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-x-circle"></i></span><span class="usecase-title">إلغاء التسجيل</span><small>UC-08</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-person-lines-fill"></i></span><span class="usecase-title">إدارة الحضور</span><small>UC-09</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-speedometer2"></i></span><span class="usecase-title">عرض لوحة التحكم</span><small>UC-10</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-graph-up-arrow"></i></span><span class="usecase-title">التقارير والإحصاءات</span><small>UC-11</small></div>
+            <div class="usecase-item"><span class="usecase-icon"><i class="bi bi-funnel"></i></span><span class="usecase-title">البحث والتصفية</span><small>UC-12</small></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="المعمارية">
+        <div class="container-fluid">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <div class="section-tag">07 / Technical Architecture</div>
+              <h2>معمارية النظام بثلاث طبقات</h2>
+              <p class="slide-text">يعتمد المشروع على فصل واضح بين واجهة المستخدم، منطق التنفيذ، وطبقة البيانات والمصادقة.</p>
+            </div>
+            <div class="col-lg-7">
+              <div class="architecture-stack">
+                <div class="architecture-card design-card">
+                  <span class="arch-icon"><i class="bi bi-palette2"></i></span>
+                  <div class="arch-content"><span>Design Layer</span><b>HTML, CSS, Bootstrap, Figma</b><small>تصميم الواجهات وتجربة المستخدم</small></div>
+                </div>
+                <div class="architecture-card execution-card">
+                  <span class="arch-icon"><i class="bi bi-code-slash"></i></span>
+                  <div class="arch-content"><span>Execution Layer</span><b>ASP.NET / C#</b><small>تنفيذ الوظائف والمنطق البرمجي</small></div>
+                </div>
+                <div class="architecture-card operations-card">
+                  <span class="arch-icon"><i class="bi bi-database-lock"></i></span>
+                  <div class="arch-content"><span>Operations Layer</span><b>SQL Server + Authentication</b><small>حفظ البيانات وإدارة الحسابات</small></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="قاعدة البيانات">
+        <div class="container-fluid">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6">
+              <div class="section-tag">08 / ERD</div>
+              <h2>تصميم قاعدة البيانات</h2>
+              <p class="slide-text">قاعدة البيانات تربط المستخدمين بالفعاليات عبر جدول التسجيلات، ويتم بناء الحضور والتقارير فوق هذه العلاقات.</p>
+              <div class="db-badges"><span>Users</span><span>Events</span><span>Registrations</span><span>Attendance</span><span>Reports</span></div>
+            </div>
+            <div class="col-lg-6">
+              <img class="visual-card" src="assets/images/database-erd.svg" alt="صورة توضيحية لقاعدة البيانات">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="تدفق البيانات">
+        <div class="container-fluid">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-6 order-lg-2">
+              <div class="section-tag">09 / DFD</div>
+              <h2>تدفق البيانات داخل النظام</h2>
+              <p class="slide-text">الزائر يتصفح، المستخدم يسجل، والمدير يدير الفعاليات ويستعرض الإحصاءات. كل العمليات تمر عبر نظام مركزي متصل بقاعدة البيانات.</p>
+            </div>
+            <div class="col-lg-6 order-lg-1">
+              <img class="visual-card" src="assets/images/data-flow.svg" alt="صورة توضيحية لتدفق البيانات">
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="الواجهات">
+        <div class="container-fluid">
+          <div class="section-tag">10 / Wireframes</div>
+          <h2>واجهات مقترحة للنظام</h2>
+          <div class="row g-4 mt-3">
+            <div class="col-md-4"><div class="screen-card"><img src="assets/images/screen-dashboard.svg" alt="Dashboard"><h3>لوحة التحكم</h3></div></div>
+            <div class="col-md-4"><div class="screen-card"><img src="assets/images/screen-register.svg" alt="Registration"><h3>صفحة التسجيل</h3></div></div>
+            <div class="col-md-4"><div class="screen-card"><img src="assets/images/screen-home.svg" alt="Home"><h3>الصفحة الرئيسية</h3></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="الجودة">
+        <div class="container-fluid">
+          <div class="section-tag">11 / Non-Functional Requirements</div>
+          <h2>متطلبات الجودة والأداء</h2>
+          <div class="quality-showcase mt-4">
+            <div class="illustration-panel quality-illustration">
+              <img src="assets/images/quality-illustration.svg" alt="رسم توضيحي لمتطلبات الجودة والأداء في النظام">
+              <div class="quality-metrics">
+                <span><i class="bi bi-clock-history"></i> 24/7</span>
+                <span><i class="bi bi-lightning-charge"></i> &lt; 2s</span>
+                <span><i class="bi bi-phone"></i> Responsive</span>
+              </div>
+            </div>
+            <div class="quality-grid">
+              <div>
+                <span class="card-icon"><i class="bi bi-shield-lock"></i></span>
+                <b>الأمان</b>
+                <p>تشفير كلمات المرور وحماية بيانات المستخدمين من الوصول غير المصرح.</p>
+              </div>
+              <div>
+                <span class="card-icon"><i class="bi bi-speedometer2"></i></span>
+                <b>الأداء</b>
+                <p>تحميل الصفحات خلال وقت قصير مع تجربة استخدام سلسة وواضحة.</p>
+              </div>
+              <div>
+                <span class="card-icon"><i class="bi bi-laptop"></i></span>
+                <b>التوافق</b>
+                <p>عمل النظام على المتصفحات الحديثة وشاشات الكمبيوتر والجوال.</p>
+              </div>
+              <div>
+                <span class="card-icon"><i class="bi bi-diagram-3"></i></span>
+                <b>التوسع</b>
+                <p>قابلية إضافة فعاليات وتقارير وصلاحيات جديدة مستقبلًا.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="منهجية العمل">
+        <div class="container-fluid">
+          <div class="row align-items-center g-5">
+            <div class="col-lg-5">
+              <div class="section-tag">12 / Vibe Coding</div>
+              <h2>من التحليل إلى التنفيذ بمساعدة الذكاء الاصطناعي</h2>
+              <p class="slide-text">تم تحويل المتطلبات إلى أوامر واضحة، ثم بناء النظام تدريجيًا مع اختبار كل جزء وتحسينه.</p>
+            </div>
+            <div class="col-lg-7">
+              <div class="timeline">
+                <div><span>1</span><b>تحليل المتطلبات</b></div>
+                <div><span>2</span><b>تحويلها إلى Prompts</b></div>
+                <div><span>3</span><b>بناء تدريجي</b></div>
+                <div><span>4</span><b>اختبار وتحسين</b></div>
+                <div><span>5</span><b>مراجعة نهائية</b></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide" data-title="الخلاصة">
+        <div class="container-fluid h-100">
+          <div class="row h-100 align-items-center">
+            <div class="col-lg-7">
+              <div class="section-tag">13 / الخلاصة</div>
+              <h2>القيمة النهائية للمشروع</h2>
+              <p class="lead">النظام يحول إدارة الفعاليات من عملية يدوية مشتتة إلى منصة رقمية منظمة، قابلة للتوسع، وتدعم اتخاذ القرار من خلال البيانات.</p>
+              <div class="closing-points">
+                <span>تنظيم أعلى</span><span>أخطاء أقل</span><span>تقارير أسرع</span><span>تجربة أفضل</span>
+              </div>
+            </div>
+            <div class="col-lg-5">
+              <div class="final-card"><h3>Event Management System</h3><p>Professional, scalable, and user-friendly.</p></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide team-slide" data-title="أسماء الطلاب">
+        <div class="container-fluid h-100 d-flex align-items-center justify-content-center text-center">
+          <div>
+            <div class="section-tag justify-content-center">14 / فريق العمل</div>
+            <h2>أسماء الطلاب</h2>
+            <p class="lead">تم إعداد هذا العرض التقديمي لمشروع نظام إدارة الفعاليات.</p>
+            <div class="team-card">
+              <div class="small-label">Project Team</div>
+              <div class="team-grid">
+                <div class="team-member">يحيى الحريم</div>
+                <div class="team-member">رزان غباين</div>
+                <div class="team-member">تمرحنة راضي</div>
+                <div class="team-member">مجد العماوي</div>
+                <div class="team-member featured">عبدالكريم صالح</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="slide thank-slide" data-title="شكرًا">
+        <div class="container-fluid h-100 d-flex align-items-center justify-content-center text-center">
+          <div>
+            <div class="brand-mark mx-auto mb-4">EMS</div>
+            <h1>شكرًا لحسن الاستماع</h1>
+            <p class="lead">جاهز للأسئلة والمناقشة</p>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
