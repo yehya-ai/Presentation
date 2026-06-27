@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <rect width="900" height="620" rx="38" fill="#0f1c31"/>
+  <g fill="#162944" stroke="#24c6dc" stroke-opacity=".65" stroke-width="2">
+    <rect x="70" y="90" width="220" height="135" rx="20"/><rect x="610" y="90" width="220" height="135" rx="20"/><rect x="340" y="245" width="220" height="135" rx="20"/><rect x="70" y="420" width="220" height="135" rx="20"/><rect x="610" y="420" width="220" height="135" rx="20"/>
+  </g>
+  <g stroke="#f4c76b" stroke-width="5" stroke-linecap="round" opacity=".8"><path d="M290 160h310"/><path d="M180 225l160 90"/><path d="M720 225L560 315"/><path d="M450 380 180 420"/><path d="M450 380 720 420"/></g>
+  <g font-family="Arial" text-anchor="middle" fill="#fff" font-weight="700" font-size="28"><text x="180" y="170">USERS</text><text x="720" y="170">EVENTS</text><text x="450" y="325">REGISTRATIONS</text><text x="180" y="500">ATTENDANCE</text><text x="720" y="500">REPORTS</text></g>
+  <text x="450" y="60" font-family="Arial" font-size="32" fill="#f7fbff" text-anchor="middle" font-weight="700">ERD Placeholder - Replace Later</text>
+</svg>

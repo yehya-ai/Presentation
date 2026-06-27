@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 620">
+  <defs><linearGradient id="g" x1="0" x2="1"><stop stop-color="#101b2e"/><stop offset="1" stop-color="#172b49"/></linearGradient></defs>
+  <rect width="900" height="620" rx="38" fill="url(#g)"/>
+  <path d="M165 155h210v110H165zM525 155h210v110H525zM345 365h210v110H345z" fill="#ffffff" opacity=".08" stroke="#ffffff" stroke-opacity=".18"/>
+  <path d="M375 210h145M630 266 500 365M270 266 390 365" stroke="#24c6dc" stroke-width="7" stroke-linecap="round" opacity=".8"/>
+  <circle cx="270" cy="210" r="42" fill="#f4c76b" opacity=".9"/><circle cx="630" cy="210" r="42" fill="#8e54e9" opacity=".9"/><circle cx="450" cy="420" r="42" fill="#24c6dc" opacity=".9"/>
+  <text x="270" y="315" font-family="Arial" font-size="28" fill="#fff" text-anchor="middle">Excel</text>
+  <text x="630" y="315" font-family="Arial" font-size="28" fill="#fff" text-anchor="middle">WhatsApp</text>
+  <text x="450" y="525" font-family="Arial" font-size="28" fill="#fff" text-anchor="middle">Manual Reports</text>
+  <text x="450" y="75" font-family="Arial" font-size="34" fill="#f7fbff" text-anchor="middle" font-weight="700">Current Manual Process</text>
+</svg>
